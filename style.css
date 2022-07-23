@@ -1,0 +1,54 @@
+
+img{
+    
+    width: 100px;
+    height: 100px
+            }
+
+.Head{
+align-items: center;
+background-color: rgb(73, 243, 255);
+display: flex;
+justify-content: space-between;
+}
+
+.Grid{
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2gOp_o0HxgwsnD2iyj3XXC2eFq5Q8KyYD6A&usqp=CAU");
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer{
+background-color: rgb(255, 238, 80);
+    display: flex;
+    justify-content: space-around;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: red;
+}
+
+.Item{
+ position: relative;
+}
+
+.Item p{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+opacity: 0;
+}
+
+.Item:hover p{
+opacity: 1;
+}
+
+.Item:hover img{
+opacity: 0.5;
+transform: scale(2);
+}
